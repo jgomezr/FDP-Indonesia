@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\julian\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.3.2\3202421d9425ced69919b282afa644e7ef0e8fef\httpmime-4.3.2.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="C:\Users\julian\Desktop\fdp\fdp\build\intermediates\transforms\dex\debug\folders\1000\10\httpmime-4.3.2_c0bffe724e96fbf4fc5ecb9e39a8f5e367a441b8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\julian\Desktop\fdp\fdp\build\intermediates\exploded-aar\fdp.forcedroid.libs\SmartStore\unspecified\jars\libs\sqlcipher.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="aa69413f8e314df13ffb8957e4f5ca87c6df3eb9">
+        <dex dex="C:\Users\julian\Desktop\fdp\fdp\build\intermediates\transforms\dex\debug\folders\1000\8\sqlcipher_21f36d31ffe01e5956c0f35bc5b4ab6106a4a9b4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\julian\Desktop\fdp\fdp\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="17cd3e60a1cfd14ac3b9a989d9f13f256ab76434">
+        <dex dex="C:\Users\julian\Desktop\fdp\fdp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_63af6efe90037ae996029723558f3de99031b632\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\julian\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\julian\Desktop\fdp\fdp\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.19_6043f43426cbeb7eceaceaaa89d48407781b82fa\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\julian\Desktop\fdp\fdp\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6f91dbe7756188ae2e6fbecb716ae858e8c2736b">
+        <dex dex="C:\Users\julian\Desktop\fdp\fdp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c2c8bda6ed40e2083f077a7b6beec3840c64e824\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\julian\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\18.0\cce0823396aa693798f8882e64213b1772032b09\guava-18.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="C:\Users\julian\Desktop\fdp\fdp\build\intermediates\transforms\dex\debug\folders\1000\10\guava-18.0_2f42dd692a98768855176bb94bd1c7484ba7d036\classes.dex" />
+    </item>
+
+</items>

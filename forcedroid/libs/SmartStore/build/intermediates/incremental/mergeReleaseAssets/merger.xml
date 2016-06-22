@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\julian\Desktop\fdp\forcedroid\libs\SmartStore\assets"><file name="icudt46l.zip" path="C:\Users\julian\Desktop\fdp\forcedroid\libs\SmartStore\assets\icudt46l.zip"/></source><source path="C:\Users\julian\Desktop\fdp\forcedroid\libs\SmartStore\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Users\julian\Desktop\fdp\forcedroid\libs\SmartStore\src\release\assets"/></dataSet></merger>
