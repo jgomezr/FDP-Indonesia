@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="mdpi"
+    format="7"
+    timestamp="491078823184525"
+    token="-713729818853299257"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="2105" />
+    <task
+        name="instant-run-dex"
+        duration="1691" />
+    <task
+        name="instant-run-transform"
+        duration="321" />
+    <task
+        name="verifier"
+        duration="3" />
+
+    <artifact
+        location="C:\Users\julian\Desktop\fdp\fdp\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="490598300139856" >
+        <artifact
+            location="C:\Users\julian\Desktop\fdp\fdp\build\outputs\apk\fdp-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="491078823184525"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\julian\Desktop\fdp\fdp\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\julian\\Desktop\\fdp\\forcedroid\\libs\\SmartSync\\build\\intermediates\\res\\merged\\debug\\xml\\authenticator.xml",
+        "source": "C:\\Users\\julian\\Desktop\\fdp\\forcedroid\\libs\\SmartSync\\build\\intermediates\\exploded-aar\\fdp.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\xml\\authenticator.xml"
+    },
+    {
+        "merged": "C:\\Users\\julian\\Desktop\\fdp\\forcedroid\\libs\\SmartSync\\build\\intermediates\\res\\merged\\debug\\xml\\servers.xml",
+        "source": "C:\\Users\\julian\\Desktop\\fdp\\forcedroid\\libs\\SmartSync\\build\\intermediates\\exploded-aar\\fdp.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\xml\\servers.xml"
+    },
+    {
+        "merged": "C:\\Users\\julian\\Desktop\\fdp\\forcedroid\\libs\\SmartSync\\build\\intermediates\\res\\merged\\debug\\xml\\app_restrictions.xml",
+        "source": "C:\\Users\\julian\\Desktop\\fdp\\forcedroid\\libs\\SmartSync\\build\\intermediates\\exploded-aar\\fdp.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\xml\\app_restrictions.xml"
+    }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_type">org.grameenfoundation.fdp.login</string>
+	<string name="app_name"><b>fdp</b></string>
+	<string name="app_package">org.grameenfoundation.fdp</string>
+    <string name="welcome">Welcome %s</string>
+	<string name="logout_button">Logout</string>
+	<string name="fetch_button">Fetch Farmers</string>
+
+</resources>
