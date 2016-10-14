@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            android:id="@+id/horizontalScrollView" >
+
+            <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alignmentMode="alignBounds"
+                android:columnCount="11"
+                android:rowCount="26"
+                android:focusableInTouchMode="true">
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plot_1_label"
+                    android:text="@string/plot1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    style="@style/FarmerDetail.ParentView.TextView"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plot_2_label"
+                    android:text="@string/plot2"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="2"
+                    android:layout_row="0"
+                    style="@style/FarmerDetail.ParentView.TextView"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plot_3_label"
+                    android:text="@string/plot3"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="3"
+                    android:layout_row="0"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plot_4_label"
+                    android:text="@string/plot4"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="4"
+                    android:layout_row="0"
+                    style="@style/FarmerDetail.ParentView.TextView"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plot_5_label"
+                    android:text="@string/plot5"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="5"
+                    android:layout_row="0"
+                    style="@style/FarmerDetail.ParentView.TextView"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plotGPS"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <EditText android:id="@+id/gpsp1_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="textNoSuggestions"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/gpsp2_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="textNoSuggestions"
+                    android:layout_column="2"
+                    android:layout_row="1"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/gpsp3_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="textNoSuggestions"
+                    android:layout_column="3"
+                    android:layout_row="1"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/gpsp4_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="textNoSuggestions"
+                    android:layout_column="4"
+                    android:layout_row="1"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/gpsp5_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="textNoSuggestions"
+                    android:layout_column="5"
+                    android:layout_row="1"
+                    android:visibility="gone"/>
+
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plotAge"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <EditText android:id="@+id/plotAgep1_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="1"
+                    android:layout_row="2"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/plotAgep2_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="2"
+                    android:layout_row="2" />
+
+                <EditText android:id="@+id/plotAgep3_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="3"
+                    android:layout_row="2"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/plotAgep4_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="4"
+                    android:layout_row="2"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/plotAgep5_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="5"
+                    android:layout_row="2"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plotArea"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="3"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <EditText android:id="@+id/plotArea1_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="1"
+                    android:layout_row="3"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/plotArea2_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="2"
+                    android:layout_row="3"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/plotArea3_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="3"
+                    android:layout_row="3"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/plotArea4_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="4"
+                    android:layout_row="3"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/plotArea5_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="5"
+                    android:layout_row="3"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cocoaTrees"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="4"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <EditText android:id="@+id/cocoaTreesP1_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="number"
+                    android:layout_column="1"
+                    android:layout_row="4"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/cocoaTreesP2_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="number"
+                    android:layout_column="2"
+                    android:layout_row="4"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/cocoaTreesP3_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="number"
+                    android:layout_column="3"
+                    android:layout_row="4"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/cocoaTreesP4_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="number"
+                    android:layout_column="4"
+                    android:layout_row="4"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/cocoaTreesP5_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="number"
+                    android:layout_column="5"
+                    android:layout_row="4"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estimatedProduction"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="5"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <EditText android:id="@+id/estimatedP1_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="1"
+                    android:layout_row="5"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/estimatedP2_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="2"
+                    android:layout_row="5"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/estimatedP3_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="3"
+                    android:layout_row="5"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/estimatedP4_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="4"
+                    android:layout_row="5"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/estimatedP5_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="numberDecimal"
+                    android:layout_column="5"
+                    android:layout_row="5"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shadeTrees"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="6"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <EditText android:id="@+id/shadeTreesP1_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="number"
+                    android:layout_column="1"
+                    android:layout_row="6"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/shadeTreesP2_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="number"
+                    android:layout_column="2"
+                    android:layout_row="6"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/shadeTreesP3_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="number"
+                    android:layout_column="3"
+                    android:layout_row="6"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/shadeTreesP4_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="number"
+                    android:layout_column="4"
+                    android:layout_row="6"
+                    android:visibility="gone"/>
+
+                <EditText android:id="@+id/shadeTreesP5_field"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    style="@style/FarmerDetail.ParentView.EditText"
+                    android:inputType="number"
+                    android:layout_column="5"
+                    android:layout_row="6"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plantingMaterial"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="7"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plantingP1_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="1"
+                    android:layout_row="7"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plantingP2_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="2"
+                    android:layout_row="7"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plantingP3_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="3"
+                    android:layout_row="7"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plantingP4_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="4"
+                    android:layout_row="7"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plantingP5_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="5"
+                    android:layout_row="7"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/farmCondition"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="8"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/farmConditionP1_field"
+                    android:entries="@array/gb"
+                    android:layout_column="1"
+                    android:layout_row="8"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/farmConditionP2_field"
+                    android:entries="@array/gb"
+                    android:layout_column="2"
+                    android:layout_row="8"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/farmConditionP3_field"
+                    android:entries="@array/gb"
+                    android:layout_column="3"
+                    android:layout_row="8"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/farmConditionP4_field"
+                    android:entries="@array/gb"
+                    android:layout_column="4"
+                    android:layout_row="8"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/farmConditionP5_field"
+                    android:entries="@array/gb"
+                    android:layout_column="5"
+                    android:layout_row="8"
+                    android:visibility="gone"/>
+
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/treeDensity"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="9"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeDensityP1_field"
+                    android:entries="@array/gb"
+                    android:layout_column="1"
+                    android:layout_row="9"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeDensityP2_field"
+                    android:entries="@array/gb"
+                    android:layout_column="2"
+                    android:layout_row="9"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeDensityP3_field"
+                    android:entries="@array/gb"
+                    android:layout_column="3"
+                    android:layout_row="9"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeDensityP4_field"
+                    android:entries="@array/gb"
+                    android:layout_column="4"
+                    android:layout_row="9"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeDensityP5_field"
+                    android:entries="@array/gb"
+                    android:layout_column="5"
+                    android:layout_row="9"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/treeAge"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="10"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeAgeP1_field"
+                    android:entries="@array/gb"
+                    android:layout_column="1"
+                    android:layout_row="10"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeAgeP2_field"
+                    android:entries="@array/gb"
+                    android:layout_column="2"
+                    android:layout_row="10"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeAgeP3_field"
+                    android:entries="@array/gb"
+                    android:layout_column="3"
+                    android:layout_row="10"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeAgeP4_field"
+                    android:entries="@array/gb"
+                    android:layout_column="4"
+                    android:layout_row="10"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeAgeP5_field"
+                    android:entries="@array/gb"
+                    android:layout_column="5"
+                    android:layout_row="10"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/treeHealth"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="11"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeHealthP1_field"
+                    android:entries="@array/gb"
+                    android:layout_column="1"
+                    android:layout_row="11"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeHealthP2_field"
+                    android:entries="@array/gb"
+                    android:layout_column="2"
+                    android:layout_row="11"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeHealthP3_field"
+                    android:entries="@array/gb"
+                    android:layout_column="3"
+                    android:layout_row="11"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeHealthP4_field"
+                    android:entries="@array/gb"
+                    android:layout_column="4"
+                    android:layout_row="11"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/treeHealthP5_field"
+                    android:entries="@array/gb"
+                    android:layout_column="5"
+                    android:layout_row="11"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/debilitationDisease"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="12"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/debilitationP1_field"
+                    android:entries="@array/gb"
+                    android:layout_column="1"
+                    android:layout_row="12"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/debilitationP2_field"
+                    android:entries="@array/gb"
+                    android:layout_column="2"
+                    android:layout_row="12"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/debilitationP3_field"
+                    android:entries="@array/gb"
+                    android:layout_column="3"
+                    android:layout_row="12"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/debilitationP4_field"
+                    android:entries="@array/gb"
+                    android:layout_column="4"
+                    android:layout_row="12"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/debilitationP5_field"
+                    android:entries="@array/gb"
+                    android:layout_column="5"
+                    android:layout_row="12"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pruning"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="13"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pruningP1_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="1"
+                    android:layout_row="13"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pruningP2_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="2"
+                    android:layout_row="13"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pruningP3_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="3"
+                    android:layout_row="13"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pruningP4_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="4"
+                    android:layout_row="13"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pruningP5_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="5"
+                    android:layout_row="13"
+                    android:visibility="gone"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pestDiseaseSanitation"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="14"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pestDiseaseP1_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="1"
+                    android:layout_row="14"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pestDiseaseP2_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="2"
+                    android:layout_row="14"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pestDiseaseP3_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="3"
+                    android:layout_row="14"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pestDiseaseP4_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="4"
+                    android:layout_row="14"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pestDiseaseP5_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="5"
+                    android:layout_row="14"/>
+
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weeding"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="15"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/weedingP1_field"
+                    android:entries="@array/gb"
+                    android:layout_column="1"
+                    android:layout_row="15"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/weedingP2_field"
+                    android:entries="@array/gb"
+                    android:layout_column="2"
+                    android:layout_row="15"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/weedingP3_field"
+                    android:entries="@array/gb"
+                    android:layout_column="3"
+                    android:layout_row="15"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/weedingP4_field"
+                    android:entries="@array/gb"
+                    android:layout_column="4"
+                    android:layout_row="15"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/weedingP5_field"
+                    android:entries="@array/gb"
+                    android:layout_column="5"
+                    android:layout_row="15"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/harvesting"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="16"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/harvestingP1_field"
+                    android:entries="@array/gb"
+                    android:layout_column="1"
+                    android:layout_row="16"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/harvestingP2_field"
+                    android:entries="@array/gb"
+                    android:layout_column="2"
+                    android:layout_row="16"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/harvestingP3_field"
+                    android:entries="@array/gb"
+                    android:layout_column="3"
+                    android:layout_row="16"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/harvestingP4_field"
+                    android:entries="@array/gb"
+                    android:layout_column="4"
+                    android:layout_row="16"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/harvestingP5_field"
+                    android:entries="@array/gb"
+                    android:layout_column="5"
+                    android:layout_row="16"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shadeManagement"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="17"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shadeManagementP1_field"
+                    android:entries="@array/gb"
+                    android:layout_column="1"
+                    android:layout_row="17"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shadeManagementP2_field"
+                    android:entries="@array/gb"
+                    android:layout_column="2"
+                    android:layout_row="17"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shadeManagementP3_field"
+                    android:entries="@array/gb"
+                    android:layout_column="3"
+                    android:layout_row="17"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shadeManagementP4_field"
+                    android:entries="@array/gb"
+                    android:layout_column="4"
+                    android:layout_row="17"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shadeManagementP5_field"
+                    android:entries="@array/gb"
+                    android:layout_column="5"
+                    android:layout_row="17"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/soilCondition"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="18"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/soilConditionP1_field"
+                    android:entries="@array/gb"
+                    android:layout_column="1"
+                    android:layout_row="18"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/soilConditionP2_field"
+                    android:entries="@array/gb"
+                    android:layout_column="2"
+                    android:layout_row="18"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/soilConditionP3_field"
+                    android:entries="@array/gb"
+                    android:layout_column="3"
+                    android:layout_row="18"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/soilConditionP4_field"
+                    android:entries="@array/gb"
+                    android:layout_column="4"
+                    android:layout_row="18"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/soilConditionP5_field"
+                    android:entries="@array/gb"
+                    android:layout_column="5"
+                    android:layout_row="18"/>
+
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/organicMatter"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="19"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/organicMatterP1_field"
+                    android:entries="@array/gb"
+                    android:layout_column="1"
+                    android:layout_row="19"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/organicMatterP2_field"
+                    android:entries="@array/gb"
+                    android:layout_column="2"
+                    android:layout_row="19"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/organicMatterP3_field"
+                    android:entries="@array/gb"
+                    android:layout_column="3"
+                    android:layout_row="19"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/organicMatterP4_field"
+                    android:entries="@array/gb"
+                    android:layout_column="4"
+                    android:layout_row="19"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/organicMatterP5_field"
+                    android:entries="@array/gb"
+                    android:layout_column="5"
+                    android:layout_row="19"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fertilizerFormulation"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="20"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fartFormP1_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="1"
+                    android:layout_row="20"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fartFormP2_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="2"
+                    android:layout_row="20"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fartFormP3_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="3"
+                    android:layout_row="20"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fartFormP4_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="4"
+                    android:layout_row="20"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fartFormP5_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="5"
+                    android:layout_row="20"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fertilizerApplication"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="21"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fartApplicationP1_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="1"
+                    android:layout_row="21"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fartApplicationP2_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="2"
+                    android:layout_row="21"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fartApplicationP3_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="3"
+                    android:layout_row="21"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fartApplicationP4_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="4"
+                    android:layout_row="21"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fartApplicationP5_field"
+                    android:entries="@array/gmb"
+                    android:layout_column="5"
+                    android:layout_row="21"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/limeNeed"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="22"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/limeP1_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="1"
+                    android:layout_row="22"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/limeP2_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="2"
+                    android:layout_row="22"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/limeP3_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="3"
+                    android:layout_row="22"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/limeP4_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="4"
+                    android:layout_row="22"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/limeP5_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="5"
+                    android:layout_row="22"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/drainageNeed"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="23"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/drainageP1_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="1"
+                    android:layout_row="23"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/drainageP2_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="2"
+                    android:layout_row="23"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/drainageP3_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="3"
+                    android:layout_row="23"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/drainageP4_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="4"
+                    android:layout_row="23"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/drainageP5_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="5"
+                    android:layout_row="23"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fillingOption"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="24"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fillingP1_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="1"
+                    android:layout_row="24"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fillingP2_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="2"
+                    android:layout_row="24"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fillingP3_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="3"
+                    android:layout_row="24"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fillingP4_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="4"
+                    android:layout_row="24"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fillingP5_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="5"
+                    android:layout_row="24"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plotHireLabor"
+                    android:layout_gravity="center_vertical"
+                    android:layout_column="0"
+                    android:layout_row="25"
+                    style="@style/FarmerDetail.ParentView.TextView" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hireP1_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="1"
+                    android:layout_row="25"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hireP2_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="2"
+                    android:layout_row="25"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hireP3_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="3"
+                    android:layout_row="25"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hireP4_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="4"
+                    android:layout_row="25"/>
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hireP5_field"
+                    android:entries="@array/yesNo"
+                    android:layout_column="5"
+                    android:layout_row="25"/>
+
+            </GridLayout>
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#298A08"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_margin="25dp"
+                android:layout_gravity="center"
+                android:text="@string/saveContinue"
+                android:gravity="center"
+                android:padding="6dp"
+                android:onClick="launchFdp"
+                android:clickable="true" />
+
+        </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

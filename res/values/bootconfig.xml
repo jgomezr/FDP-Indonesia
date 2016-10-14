@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="remoteAccessConsumerKey">3MVG9ZL0ppGP5UrCq5vTCnQc8VY51CHIKeWfb4RVZT1G4.da.4Pj.cqIcmqJqCyrRg7gyVoxBVIwpci32xFWq</string>
+    <string name="oauthRedirectURI">fdpapp://auth/success</string>
+    <string-array name="oauthScopes">
+        <item>api</item>
+    </string-array>
+    <string name="androidPushNotificationClientId"></string>
+</resources>

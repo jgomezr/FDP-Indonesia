@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="account_type">org.grameenfoundation.fdp.login</string>
+	<string name="app_name"><b>FDP</b></string>
+	<string name="app_package">org.grameenfoundation.fdp</string>
+	<string name="logout_button">Logout</string>
+	<string name="switch_user_button">Switch User</string>
+	<string name="inspect_db_button">Inspect DB</string>
+	<string name="action_search">Search</string>
+	<string name="action_refresh">Synchronize</string>
+	<string name="action_add">Add Farmer</string>
+	<string name="no_results_found">No results found</string>
+	<string name="main_activity_title">Farmer List</string>
+	<string name="logout_title">Log out?</string>
+	<string name="yes">Yes</string>
+	<string name="cancel">No</string>
+	<string name="delete">Delete</string>
+	<string name="saveContinue">Save and Continue</string>
+	<string name="finish">Finish</string>
+	<string name="back">Back</string>
+	<string name="delete_title">Are you sure?</string>
+	<string name="farmerProfile">FARMER PROFILE</string>
+	<string name="socioeconomicProfile">SOCIOECONOMIC PROFILE</string>
+	<string name="productiveProfile">PRODUCTIVE PROFILE</string>
+	<string name="plotInformation">PLOT INFORMATION</string>
+	<string name="ao">ADOPTION OBSERVATIONS</string>
+	<string name="additionalIntervention">ADDITIONAL INTERVENTION</string>
+	<string name="full_name">Farmer Name:</string>
+	<string name="national_id">Farm Code:</string>
+	<string name="birthday">Farmer Birthday Year:</string>>
+	<string name="educational_level">Educational Level:</string>
+	<string name="farmer_code">Farmer Code:</string>
+	<string name="gender">Gender:</string>
+	<string name="gps">House GPS:</string>
+	<string name="getLocation">Get Location</string>
+	<string name="yearsRelationshipWithMars">Years Relationship With Mars:</string>
+	<string name="haveSpouse">Have spouse:</string>
+	<string name="spouseName">Spouse Name:</string>
+	<string name="spouseEducationalLevel">Spouse Educational Level:</string>
+	<string name="spouseBirthday">Spouse Birthday Year:</string>
+	<string name="village">Village:</string>
+	<string name="numberChildren">Total number of children:</string>
+	<string name="childrenUnder">Children between 5 17:</string>
+	<string name="childrenInSchool">Children 5 17 enrolled in school:</string>
+	<string name="familyMembers">Number of Family members living together including the farmer:</string>
+	<string name="dependEconomically">Number of family members who depend on the farmer cocoa income:</string>
+	<string name="receivesFarmPayment">Receives payment for farm labor:</string>
+	<string name="spousePaidWork">Spouse have any paid work:</string>
+	<string name="familyPaidWork">Family Members paid work:</string>
+	<string name="expensesCocoaLY">Total Expenses on cocoa last year:</string>
+	<string name="grossCocoaLY">Gross income Cocoa last year:</string>
+	<string name="incomeOtherCrops">Total income other crops:</string>
+	<string name="totalIncomeLabor">Total income farm labor:</string>
+	<string name="totalSpouseIncome">Total spouse income:</string>
+	<string name="totalFamilyMembersIncome">Total family members income:</string>
+	<string name="livingExpenses">Annual living expenses:</string>
+	<string name="otherExpenses">Annual other expenses:</string>
+	<string name="plannedInvestments">Planned investments:</string>
+	<string name="educationExpenses">Expected education expenses:</string>
+	<string name="haveCredit">Have you taken a loan over 10M IDR that you have to pay back:</string>
+	<string name="payForCredit">How much do you pay for credit:</string>
+	<string name="giveLoan">Have you given someone a loan:</string>
+	<string name="amountOfLoan">What is the total amount of the loan?</string>
+	<string name="moneyBack">How much do you pay back?</string>
+	<string name="householdSavings">Household Savings:</string>
+	<string name="farmerComments">Farmer Comments:</string>
+	<string name="farmName">Farm Name:</string>
+	<string name="farmVillage">Village:</string>
+	<string name="farmGPS">Farm GPS:</string>
+	<string name="farmAge">Farm age:</string>
+	<string name="farmArea">Total farm Size (Ha):</string>
+	<string name="farmCertifications">Farm Certifications:</string>
+	<string name="cocoaArea">Total Cocoa Size (Ha):</string>
+	<string name="renovationArea">Total Renovation Area (Ha):</string>
+	<string name="haveOtherCrops">Have Additional Crops:</string>
+	<string name="additionalCrops">Additional Crops:</string>
+	<string name="areaOtherCrops">Total Area other crops (Ha):</string>
+	<string name="fmWorkFarm">Family members work on farm:</string>
+	<string name="hireLabor">Hire labor:</string>
+	<string name="daysHire">How many labor days hire:</string>
+	<string name="productionCocoaLY">Total Production of cocoa last year (Dry bean equivalent) (Kg):</string>
+	<string name="averageCocoaPrice">Average Farm gate cocoa price per Kg:</string>
+	<string name="numberPlots">Number of plots:</string>
+	<string name="plotGPS">Plot GPS:</string>
+	<string name="plotAge">Tree Age:</string>
+	<string name="plotArea">Plot Size (Ha):</string>
+	<string name="cocoaTrees">Distance between cocoa trees:</string>
+	<string name="estimatedProduction">Estimated production:</string>
+	<string name="shadeTrees">Number of Shade trees:</string>
+	<string name="agree">Agreed on recommendations:</string>
+	<string name="reasonNotAgree">Reasons not Agreed:</string>
+	<string name="plantingMaterial">Planting Material:</string>
+	<string name="farmCondition">Farm Condition:</string>
+	<string name="treeDensity">Tree density:</string>
+	<string name="treeAge">Tree age:</string>
+	<string name="treeHealth">Tree health:</string>
+	<string name="debilitationDisease">Debilitating Disease:</string>
+	<string name="pruning">Pruning:</string>
+	<string name="pestDiseaseSanitation">Pest and Disease and Sanitation:</string>
+	<string name="weeding">Weeding:</string>
+	<string name="harvesting">Harvesting:</string>
+	<string name="shadeManagement">Shade Management:</string>
+	<string name="soilCondition">Soil Condition:</string>
+	<string name="organicMatter">Organic Matter:</string>
+	<string name="fertilizerFormulation">Fertilizer Formulation:</string>
+	<string name="fertilizerApplication">Fertilizer Application:</string>
+	<string name="limeNeed">Lime need:</string>
+	<string name="drainageNeed">Drainage need:</string>
+	<string name="fillingOption">Filling in option:</string>
+	<string name="plotHireLabor">Hire labor:</string>
+	<string name="plot1">Plot 1</string>
+	<string name="plot2">Plot 2</string>
+	<string name="plot3">Plot 3</string>
+	<string name="plot4">Plot 4</string>
+	<string name="plot5">Plot 5</string>
+	<string name="plot6">Plot 6</string>
+	<string name="plot7">Plot 7</string>
+	<string name="plot8">Plot 8</string>
+	<string name="plot9">Plot 9</string>
+	<string name="plot10">Plot 10</string>
+	<string name="startYear">Start Year</string>
+	<string name="year1">Year 1</string>
+	<string name="year2">Year 2</string>
+	<string name="year3">Year 3</string>
+	<string name="year4">Year 4</string>
+	<string name="year5">Year 5</string>
+	<string name="year6">Year 6</string>
+	<string name="year7">Year 7</string>
+	<string name="year8">Year 8</string>
+	<string name="year9">Year 9</string>
+	<string name="year10">Year 10</string>
+	<string name="netPlotIncome">Net income from Cocoa:</string>
+	<string name="netFarming">Net income other farming Activities:</string>
+	<string name="netFamily">Net family income:</string>
+	<string name="netOther">Net income other sources:</string>
+	<string name="totalIncome">Total income:</string>
+	<string name="totalExpenses">Total family cost and expenses:</string>
+	<string name="foundsAvailable">Funds available for invest:</string>
+	<string name="foundsNeeded">Total cost of FDP:</string>
+	<string name="profitOrLost">Profit or Loss</string>
+	<string name="gaps">Maintenance (GAPS):</string>
+	<string name="graft">Graft:</string>
+	<string name="replant">Replant:</string>
+	<string name="extraSoil">Extra Soil Management</string>
+	<string name="lime">Lime:</string>
+	<string name="drainage">Drainage:</string>
+	<string name="filling">Filling in:</string>
+	<string name="labor">Labor:</string>
+	<string name="empty"> </string>
+	<string name="jan">January</string>
+	<string name="feb">February</string>
+	<string name="mar">March</string>
+	<string name="apr">April</string>
+	<string name="may">May</string>
+	<string name="jun">June</string>
+	<string name="jul">July</string>
+	<string name="aug">August</string>
+	<string name="sep">September</string>
+	<string name="oct">October</string>
+	<string name="nov">November</string>
+	<string name="dec">December</string>
+	<string name="greater0"></string>
+	<string name="cannotBeEmpty">Farmer Name and Farmer Code cannot be empty!</string>
+	<string name="saved">Save successful!</string>
+	<string name="p1">Clearing</string>
+	<string name="p2">Drainage</string>
+	<string name="p3">Lining-cocoa and shade</string>
+	<string name="p4">Cocoa Planting</string>
+	<string name="p5">Cocoa re- or inter-planting</string>
+	<string name="p6">Coconut leaf - temporary shade</string>
+	<string name="p7">Shade Planting</string>
+	<string name="p8">Pruning/Sanitation</string>
+	<string name="p9">Fertilizer</string>
+	<string name="p10">Grafting work/ take off the plastic</string>
+	<string name="p11">Pollarding/Sanitation, cutting old tree after grafting</string>
+	<string name="p12">Herbiciding OR mechanical manual weeding</string>
+	<string name="p13">Circle weeding</string>
+	<string name="p14">Fertilizing NPK, Cocoa Fertilizer, foliar at planting</string>
+	<string name="p15">Application of lime, organic fertilizer</string>
+	<string name="p16">P and D Control + Foliar</string>
+	<string name="p17">Pruning/Sanitation</string>
+	<string name="p18">Shape pruning</string>
+	<string name="p19">Maintenance</string>
+	<string name="p20">Production/shape</string>
+	<string name="p21">Sanitation</string>
+	<string name="p22">Shape pruning</string>
+	<string name="p23">Shade reducing/rejuvenate old shade</string>
+	<string name="p24">Harvest, ferment, dry, sell
+</string>
+	<color name="white">#FFFFFF</color>
+	<string-array name="yesNo">
+		<item>N/A</item>
+		<item>Yes</item>
+		<item>No</item>
+	</string-array>
+	<string-array name="yes">
+		<item>Yes</item>
+		<item>No</item>
+	</string-array>
+	<string-array name="No">
+		<item>No</item>
+		<item>Yes</item>
+	</string-array>
+	<string-array name="education">
+		<item>N/A</item>
+		<item>Sekola Dasa - SD</item>
+		<item>Sekola Menengah Pertama - SMP</item>
+		<item>Sekola Menengah Atas - SMA</item>
+		<item>Madrasah Aliyah Kejuruan - MAK</item>
+	</string-array>
+	<string-array name="education_SD">
+		<item>Sekola Dasa - SD</item>
+		<item>Sekola Menengah Pertama - SMP</item>
+		<item>Sekola Menengah Atas - SMA</item>
+		<item>Madrasah Aliyah Kejuruan - MAK</item>
+	</string-array>
+	<string-array name="education_SMP">
+		<item>Sekola Menengah Pertama - SMP</item>
+		<item>Sekola Dasa - SD</item>
+		<item>Sekola Menengah Atas - SMA</item>
+		<item>Madrasah Aliyah Kejuruan - MAK</item>
+	</string-array>
+	<string-array name="education_SMA">
+		<item>Sekola Menengah Atas - SMA</item>
+		<item>Sekola Dasa - SD</item>
+		<item>Sekola Menengah Pertama - SMP</item>
+		<item>Madrasah Aliyah Kejuruan - MAK</item>
+	</string-array>
+	<string-array name="education_MAK">
+		<item>Madrasah Aliyah Kejuruan - MAK</item>
+		<item>Sekola Dasa - SD</item>
+		<item>Sekola Menengah Pertama - SMP</item>
+		<item>Sekola Menengah Atas - SMA</item>
+	</string-array>
+	<string-array name="gender">
+		<item>N/A</item>
+		<item>Male</item>
+		<item>Female</item>
+	</string-array>
+	<string-array name="gender_male">
+		<item>Male</item>
+		<item>Female</item>
+	</string-array>
+	<string-array name="gender_female">
+		<item>Female</item>
+		<item>Male</item>
+	</string-array>
+	<string-array name="gmb">
+		<item>N/A</item>
+		<item>G</item>
+		<item>M</item>
+		<item>B</item>
+	</string-array>
+	<string-array name="g_mb">
+		<item>G</item>
+		<item>M</item>
+		<item>B</item>
+	</string-array>
+	<string-array name="m_gb">
+		<item>M</item>
+		<item>G</item>
+		<item>B</item>
+	</string-array>
+	<string-array name="b_gm">
+		<item>B</item>
+		<item>G</item>
+		<item>M</item>
+	</string-array>
+	<string-array name="gb">
+		<item>N/A</item>
+		<item>G</item>
+		<item>B</item>
+	</string-array>
+	<string-array name="g_b">
+		<item>G</item>
+		<item>B</item>
+	</string-array>
+	<string-array name="b_g">
+		<item>B</item>
+		<item>G</item>
+	</string-array>
+	<string-array name="years">
+		<item>N/A</item>
+		<item>Year 1</item>
+		<item>Year 2</item>
+		<item>Year 3</item>
+		<item>Year 4</item>
+		<item>Year 5</item>
+		<item>Year 6</item>
+		<item>Year 7</item>
+	</string-array>
+</resources>
